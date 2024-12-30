@@ -83,10 +83,10 @@
 
 
             var arwr = [{
-                title: "夏柔",
+                title: "直播",
                 msg: true,
                 state: 'pause',
-                src: 'https://tucdn.wpon.cn/api-girl/index.php?wpon=302',
+                src: 'http://recordtx.shangzhibo.tv/0a38e526vodcq1251771390/9e8eda9a1397757899309282165/playlist.m3u8',
                 videoImg: ''
             }, ];
 
@@ -108,8 +108,8 @@
                         <video  autoplay="autoplay"   class="video" id="video${i+1}" preload="auto" src="${item.src}"  data-id="${i+1}" page-gesture="true" 
      show-center-play-btn="true" show-play-btn="false" enable-play-gesture="true" loop="true">你的浏览器不支持HTML5播放此视频</video>
     
-				<div class="play"></div><div class="desc"><div class="desc_name">@是夏柔呀</div>
-						<div class="desc_title">等小哥哥带我回家呐～嘻嘻</div>
+				<div class="play"></div><div class="desc"><div class="desc_name">@刷新</div>
+						<div class="desc_title">刷新</div>
 
 				</div>
 					<div class="function" id="${item.state}">
@@ -137,11 +137,11 @@
                 if ($(this).hasClass("xin")) { //点击实心
                     // 发送ajax成功之后
                     $(this).addClass("xin_active").removeClass("xin");
-                    mui.alert("谢谢点赞呐")
+                    mui.alert("哈利路亚~")
                 } else if ($(this).hasClass("xin_active")) { //点击红心
                     // 发送ajax成功之后
                     $(this).addClass("xin").removeClass("xin_active");
-                    mui.alert("人家不好嘛？")
+                    mui.alert("以马内利")
                 }
 
             })
