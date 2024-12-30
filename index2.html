@@ -11,6 +11,40 @@
 <video controls="controls" autoplay loop poster="https://tucdn.wpon.cn/2024/12/30/fdbbe38b2456c.jpg" width="100%" height="100%" src="http://recordtx.shangzhibo.tv/0a38e526vodcq1251771390/70e7f5d91397757896170506793/playlist.m3u8"></video>
 </section>
 </div>
+<style>
+  .html {
+    height: 500px;
+    width: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 16px;
+    border: 2px solid #eee;
+    scroll-behavior: smooth;
+  }
+</style>
 
+<div class="html"></div>
+<div>我：<input type="text" ><button>发送</button></div>
+
+<script>
+    //    1、获取元素 div input button
+    var div = document.getElementsByTagName('div')[0];
+    var inp = document.getElementsByTagName('input')[0];
+    var btn = document.getElementsByTagName('button')[0];
+    console.log(div,inp,btn);
+    // 2、加事件
+    btn.onclick = function () {
+        // 3.1.1 获取输入框的内容 方法：元素.value
+        var txt = inp.value;
+        console.log(txt);
+        // 3.1 将输入框的内容添加到div 可以使用+=
+        div.innerHTML += '消息：' + txt + '<br>';
+        // 3.2清空输入框的内容 将输入框的值变为空字符或者null
+        inp.value = '';
+        // inp.value = null;
+    }
+    </script>
 </body>
 </html>
