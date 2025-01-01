@@ -23,7 +23,7 @@ margin:100px auto;
 display:flex;
 flex-wrap:wrap;
 align-items:flex-start;
-gap:30px;
+gap:20px;
 }
 
 .container .main-video-container{
