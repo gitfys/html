@@ -10,8 +10,8 @@ text-transform:capitalize;
 }
 
 body{
-// background-color:#eee;
-// padding:20px;
+background-color:#eee;
+padding:10px;
 background-image:url(https://tucdn.wpon.cn/2024/12/30/3ad9be9ade3b5.jpg);
 background-size:100% 100%;
 background-attachment: fixed;
@@ -23,7 +23,7 @@ margin:100px auto;
 display:flex;
 flex-wrap:wrap;
 align-items:flex-start;
-gap:20px;
+gap:30px;
 }
 
 .container .main-video-container{
