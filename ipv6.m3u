@@ -1,6 +1,13 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
 #EXTINF:-1 tvg-name="一起看†" tvg-logo="https://html.html1.ip-ddns.com/tv/sj.tv.png" group-title="†教会频道",一起看 直播
 https://gt.yike33.com/541d/fg124.m3u8?auth_key=1665295667-0-0-fa89da15b05d3c6bb57d9859fd63c8a8
+
+#EXTINF:-1 tvg-name="一起看†" tvg-logo="https://html.html1.ip-ddns.com/tv/sj.tv.png" group-title="†教会频道",一起看 直播
+http://recordtx.shangzhibo.tv/0a38e526vodcq1251771390/62ef3d821397757903901612610/playlist.m3u8
+
+#EXTINF:-1 tvg-name="一起看†" tvg-logo="https://html.html1.ip-ddns.com/tv/sj.tv.png" group-title="†教会频道",一起看 直播
+http://recordtx.shangzhibo.tv/0a38e526vodcq1251771390/03f783f61397757903903926854/playlist.m3u8
+
 #EXTINF:-1 tvg-name="一起看†" tvg-logo="https://html.html1.ip-ddns.com/tv/sj.tv.png" group-title="†教会频道",一起看 直播
 http://recordtx.shangzhibo.tv/0a38e526vodcq1251771390/1d0a7c381397757902989104981/playlist.m3u8
 #EXTINF:-1 tvg-name="一起看†" tvg-logo="https://html.html1.ip-ddns.com/tv/sj.tv.png" group-title="†教会频道",一起看 直播
