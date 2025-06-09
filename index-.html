@@ -11,20 +11,20 @@ var password = "1";
 function passcheck() {
 
 if(document.getElementById('pass1').value != password) {
-alert('您输入的密码有误，请重新输入下。\n:谢谢！');
+alert('您输入的密码有误，请重新输入下。\r\n谢谢！');
 return false;
 }
 
 if(document.getElementById('pass1').value == password) {
-alert('欢迎您！来到 街头教会，一起看†直播....');
+alert('欢迎您！来到 街头教会，\n一起看†直播....');
 }
 }
 </script>
 </head>
 <body>
 <form class="passform" action="index3.html" onsubmit="return passcheck()">
-请输入密码：<input type="password" required id="pass1">
-<input type="submit">
+密码：<input type="password" required id="pass1">
+<input type="submit" placeholder="请输入密码">
 </form>
 </body>
 </html>
