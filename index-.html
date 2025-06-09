@@ -24,7 +24,10 @@ alert('一起看†直播....\r\n欢迎您！来到 街头教会');
 <body>
 <form class="passform" action="index3.html" onsubmit="return passcheck()">
 密码：<input type="password" required id="pass1">
-<input type="submit" placeholder="请输入密码">
+<input type="submit" id="myInput">
 </form>
+<script>
+document.getElementById("myInput").value = "确定";
+</script>
 </body>
 </html>
