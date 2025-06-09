@@ -17,7 +17,7 @@ color:red;
     justify-content: center;  /* 水平居中 */
     align-items: center;      /* 垂直居中 */
     height: 100vh;            /* 使容器高度占满整个视口 */
-    border: 1px solid #000;   /* 可选，用于可视化容器边界 */
+    border: 5px solid #000;   /* 可选，用于可视化容器边界 */
 }
 </style>
 <script>
@@ -35,13 +35,14 @@ alert('一起看†直播....\r\n欢迎您！来到 街头教会 云上会场');
 }
 </script>
 </head>
-<body class="container box">
+<body class="container">
 <h1>一起看<span class="red">†</span>直播</h1>
-<br>
+<h3>
 <form class="passform" action="index3.html" onsubmit="return passcheck()">
 输入密码：<input type="password" required id="pass1">
 <input type="submit" id="myInput">
 </form>
+</h3>
 <script>
 document.getElementById("myInput").value = "确定";
 </script>
