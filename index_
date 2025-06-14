@@ -28,7 +28,7 @@ color:red;
     text-align: center; /* 使文本内容在grid-item内水平居中 */
 </style>
 <script>
-var password = "1";
+var password = "17";
 function passcheck() {
 
 if(document.getElementById('pass1').value != password) {
@@ -37,7 +37,7 @@ return false;
 }
 
 if(document.getElementById('pass1').value == password) {
-alert('一起看†直播.... ദ്ദി˶˃ ᵕ ˂ )✧\r\n欢迎您！来到 街头教会 线上直播。');
+alert('一起看†直播.... ദ്ദി˶˃ ᵕ ˂ )✧\r\n欢迎您！来到 城北教会 线上直播。');
 }
 }
 </script>
